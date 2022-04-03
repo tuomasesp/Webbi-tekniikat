@@ -13,7 +13,7 @@ label{
 }
 
 form{
-    padding: 0px 0px;
+    padding: 50px 5px;
 }
 
 input{
@@ -24,12 +24,12 @@ input{
 }
 .header{
     font-weight: 100;
-    font-size: 1em;
-    padding: 0px 0px;
+    font-size: 3em;
+    padding: 5px 5px;
     margin: 0px;
 }
 hr{
-    height: 2px;
+    height: 3px;
     border: none;
     background-color: white;
 }
@@ -37,6 +37,6 @@ div{
     display: inline-block;
     border-radius: 5px;
     background-color: lightgray;
-    width: 200px;
+    width: 250px;
 }
 
