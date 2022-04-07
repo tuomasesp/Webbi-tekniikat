@@ -10,73 +10,70 @@
     <title>Bootstrap-harjoitus</title>
 </head>
 <body>
-    <!-- Add Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Harjoitus</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
-            </ul>
-           
-            
-          </div>
-        </div>
-      </nav>
-    <h1>Bootstrap-harjoitus</h1>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-sm-3">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis error quos est ex expedita sint temporibus a. Earum iure modi, aut ipsa nisi nobis, officiis, cum beatae laboriosam accusantium obcaecati.</p>
+    <!-- Add sidebar-->
+    <div class="container-fluid">
+        <div class="row flex-nowrap">
+            <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark sidebar">
+                <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+                    <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                        <span class="fs-5 d-none d-sm-inline">Menu</span>
+                    </a>
+                    <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link align-middle px-0">
+                                <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="about.html" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">About</span> </a>
+                        </li>
+                    </ul>
+                    <hr>
+                    
+                </div>
             </div>
-            <div class="col-md-3 col-sm-6">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis error quos est ex expedita sint temporibus a. Earum iure modi, aut ipsa nisi nobis, officiis, cum beatae laboriosam accusantium obcaecati.</p>
-            </div>
-            <div class="col-md-3 col-sm-3">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis error quos est ex expedita sint temporibus a. Earum iure modi, aut ipsa nisi nobis, officiis, cum beatae laboriosam accusantium obcaecati.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col"><p>Banaanilaivalla matkustaa joku kuka lie</p></div>
-            <div class="col">
-                <div class="row">
-                    <div class="col">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis porro temporibus facere minus quod debitis, qui maiores dolorem dignissimos labore voluptas ducimus, consectetur numquam earum. Adipisci explicabo placeat quos voluptates.</p>
+            <div class="col py-3">
+                <h1>Bootstrap-harjoitus</h1>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-3">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis error quos est ex expedita sint temporibus a. Earum iure modi, aut ipsa nisi nobis, officiis, cum beatae laboriosam accusantium obcaecati.</p>
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis error quos est ex expedita sint temporibus a. Earum iure modi, aut ipsa nisi nobis, officiis, cum beatae laboriosam accusantium obcaecati.</p>
+                        </div>
+                        <div class="col-md-3 col-sm-3">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis error quos est ex expedita sint temporibus a. Earum iure modi, aut ipsa nisi nobis, officiis, cum beatae laboriosam accusantium obcaecati.</p>
+                        </div>
                     </div>
-                    <div class="col">
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, deserunt maiores ut delectus cum, officia, dolor cupiditate eum vero rem non ratione enim laborum dolores suscipit facilis ad? Blanditiis, nobis.</p>
-                    </div>
-                    <div class="col">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, magnam eos cumque error illo perferendis dicta quod consectetur vitae officia quae quasi recusandae iure expedita harum dolores laudantium dignissimos itaque.</p>
+                    <div class="row">
+                        <div class="col"><p>Banaanilaivalla matkustaa joku kuka lie <div id="banana"></div></p>
+
+                        </div>
+
+                        <div class="col">
+                            <div class="row">
+                                <div class="col">
+                                    <a href="alerts.html">Alertteihin</a>
+                                </div>
+                                <div class="col">
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, deserunt maiores ut delectus cum, officia, dolor cupiditate eum vero rem non ratione enim laborum dolores suscipit facilis ad? Blanditiis, nobis.</p>
+                                </div>
+                                <div class="col">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, magnam eos cumque error illo perferendis dicta quod consectetur vitae officia quae quasi recusandae iure expedita harum dolores laudantium dignissimos itaque.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+    
             </div>
         </div>
     </div>
-    
+
     <!--Add Bootstrap JS file-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>
